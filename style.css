@@ -279,61 +279,7 @@
     box-shadow:  10px 5px 40px #38383823 ;
 }
 
-/*___________________________________ Footer_________________________________ */
-/* ________________________________________________________________________________ */
-footer{
-    background-color: #111111;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-footer .f-col{
-    font-family: "Oswald", sans-serif;
-    width: 280px;
-    height: 230px;
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 10px;
-    font-weight: 400;
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    text-align: center;
-}
-footer h3{
-    text-align: center;
-    font-size: 23px;
-    margin: 18px 2px;
-    text-decoration: underline;
-    text-underline-offset: 10px;
-    margin-bottom: 30px;
-}
-footer #email a{
-    color: #ffffff;
-    text-decoration: none;
-}
-footer #email a:hover{
-    color: #FF0000;
-}
-footer .f-col #f-icon{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 28px;
-}
-footer .f-col #f-icon a{
-color: #ffffff;
-text-decoration: none;
-}
-footer .f-col #f-icon i{
-text-align: center;
-}
-footer .f-col #f-icon i:hover{
-    color: #FF0000;
-}
-footer .f-col p{
-    margin:0px;
-}
+
 /*___________________________________ Exploe_________________________________ */
 /* ________________________________________________________________________________ */
 #banner-explore #banner-video{
@@ -622,6 +568,152 @@ footer .f-col p{
     width: 75vw;
     margin: 20px 20px;
   }
+     /*___________________________________ contact_________________________________ */
+/* ________________________________________________________________________________ */
+#contact-banner{
+    background-image: url(image/contact/contact-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left 0% top 50%;
+    width: 100%;
+    height: 50vh;
+}
+#contact-cont{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(149, 1, 1) 0%, rgb(99, 1, 2) 50%, rgb(61, 3, 2) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#contact-cont #map iframe{
+    width: 550px;
+    height: 550px;
+    border-radius: 15px 0px 0px 15px;
+}
+#contact-cont #form-cont form{
+    background-color: rgba(255, 255, 255, 0.068);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+    height: 550px;
+    border-radius: 0px 15px 15px 0px;
+}
+#contact-cont #form-cont form h1{
+        /* background-color: violet; */
+        font-size: 40px;
+        display: block;
+        /* color: #2c234d; */
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #fff;
+        -webkit-text-stroke: 1px #ffffff;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+}
+#contact-cont #form-cont form input{
+    width: 450px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.459);
+    background-color: transparent;
+    margin: 10px 20px;
+    border-top: none;
+    border-right: none;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.363);
+}
+#contact-cont #form-cont form input::placeholder{
+    font-size: 15px;
+    padding: 0px 30px;
+    color: white;
+    text-transform: capitalize;
+}
+#contact-cont #form-cont form textarea{
+    width: 450px;
+    height: 100px;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.459);
+    background-color: transparent;
+    border-top: none;
+    border-right: none;
+    margin: 10px 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.363);
+}
+textarea::placeholder{
+    font-size: 15px;
+    padding: 30px 30px;
+    color: white;
+    text-transform: capitalize;
+}
+#contact-cont #form-cont form button{
+    width: 120px;
+    height: 50px;
+    border-radius: 30px;
+    border: 2px solid white;
+    background: #FF0000;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin: 4px 20px;
+}
+   /*___________________________________ Footer_________________________________ */
+/* ________________________________________________________________________________ */
+footer{
+    background-color: #111111;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+footer .f-col{
+    font-family: "Oswald", sans-serif;
+    width: 280px;
+    height: 230px;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+footer h3{
+    text-align: center;
+    font-size: 23px;
+    margin: 18px 2px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    margin-bottom: 30px;
+}
+footer #email a{
+    color: #ffffff;
+    text-decoration: none;
+}
+footer #email a:hover{
+    color: #FF0000;
+}
+footer .f-col #f-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 28px;
+}
+footer .f-col #f-icon a{
+color: #ffffff;
+text-decoration: none;
+}
+footer .f-col #f-icon i{
+text-align: center;
+}
+footer .f-col #f-icon i:hover{
+    color: #FF0000;
+}
+footer .f-col p{
+    margin:0px;
+}
 /*___________________________________ Media Query_________________________________ */
 /* ________________________________________________________________________________ */
 
@@ -742,7 +834,6 @@ footer .f-col p{
     overflow: scroll;
     margin: 20px 20px;
 }
-
 }
 
 /*___________________________________ Media Query (SM)_________________________________ */
@@ -859,6 +950,28 @@ footer .f-col p{
         height: 350px;
         overflow: scroll;
         margin: 20px 20px;
+    }
+    /* ---------------------------------------------------------------------------------- */
+    #contact-cont #map iframe{
+        width: 350px;
+        height: 350px;
+        margin: 10px 0px;
+    }
+    #contact-cont #form-cont form{
+        width: 350px;
+        height: 350px;
+        margin: 10px 0px;
+    }
+    #contact-cont #form-cont form input {
+        width: 320px;
+        padding: 5px 20px;
+    }
+    #contact-cont #form-cont form textarea {
+        width: 320px;
+        padding: 5px 20px;
+    }
+    #contact-cont #form-cont form input::placeholder,  #contact-cont #form-cont form textarea::placeholder{
+        font-size: 13px;
     }
     /* --------------------------------------------------------------------------- */
     footer .f-col {
