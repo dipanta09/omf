@@ -146,7 +146,7 @@
         text-align: center;
         position:absolute;
         left: 50px;
-        top: 400px;
+        top: 200px;
         /* z-index: 99; */
 }
 #hero p {
@@ -308,8 +308,8 @@
 }
 #explore .image-box, .text-box{
     min-width: 280px;
-    width: 600px;
-    height: 600px;
+    width: 400px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
