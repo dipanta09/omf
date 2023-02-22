@@ -694,6 +694,44 @@ textarea::placeholder{
     border-radius: 10px;
 }
 
+   /*___________________________________ transformation_________________________________ */
+/* ________________________________________________________________________________ */
+#transformation-body{
+    /* background-color: yellowgreen; */
+    background: linear-gradient(to bottom, #950101 0%, #630102 50%, #3d0302 100%);
+}
+#transformation-body h1{
+        /* background-color: violet; */
+        font-size: 6vw;
+        display: block;
+        /* color: #2c234d; */
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #fff;
+        -webkit-text-stroke: 1px #ffffff;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+        background-color: #00000062;
+}
+#transformation-body #image-cont{
+    background-color:#00000065;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    /* width: 1344px; */
+}
+#transformation-body #image-cont img{
+    width: 450px;
+    height: 450px;
+    margin: 20px;
+    padding: 10px;
+    border-left: 4px solid  #950101;
+    border-bottom: 4px solid  #950101;
+    box-shadow: rgba(255, 0, 0, 0.582) 0px 0px 15px 2px;
+    /* background: linear-gradient(to bottom, #950101 0%, #630102 50%, #3d0302 100%); */
+}
    /*___________________________________ Footer_________________________________ */
 /* ________________________________________________________________________________ */
 footer{
@@ -726,6 +764,7 @@ footer h3{
 footer #email a{
     color: #ffffff;
     text-decoration: none;
+    text-transform: lowercase;
 }
 footer #email a:hover{
     color: #FF0000;
@@ -1029,7 +1068,27 @@ footer .f-col p{
             left: 10px;
         }
     /* --------------------------------------------------------------------------- */
-    
+    #transformation-body #image-cont img {
+        width: 380px;
+        height: 380px;
+        margin: 20px;
+        padding: 10px;
+        border-left: 4px solid rgb(149, 1, 1);
+        border-bottom: 4px solid rgb(149, 1, 1);
+        box-shadow: rgba(255, 0, 0, 0.58) 0px 0px 15px 2px;
+    }
+    #transformation-body h1 {
+        font-size: 7.5vw;
+        display: block;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #fff;
+        -webkit-text-stroke: 1px #ffffff;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+        background-color: #00000062;
+    }
+    /* -------------------------------------------------------------------------------------- */
     footer .f-col {
         height: 150px;
     }
